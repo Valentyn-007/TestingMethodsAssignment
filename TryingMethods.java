@@ -19,7 +19,6 @@ public class TryingMethods {
         TryingMethods Statement = new TryingMethods();
         Statement.conditionalStatement(35);
 
-        Summing();
         //
     }
 
