@@ -72,5 +72,12 @@ public class TryingMethods {
 
     public static void summing() {
 
+        for (int j = 12; j < 104; j++) {
+            if (j % 2 > 0) {
+                System.out.println(j);
+            }
+
+        }
+
     }
 }
