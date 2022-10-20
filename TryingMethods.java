@@ -18,6 +18,8 @@ public class TryingMethods {
 
         TryingMethods Statement = new TryingMethods();
         Statement.conditionalStatement(35);
+
+        Summing();
         //
     }
 
@@ -66,5 +68,9 @@ public class TryingMethods {
         else {
             System.out.println("That means you are average");
         }
+    }
+
+    public static void summing() {
+
     }
 }
