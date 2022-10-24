@@ -12,14 +12,15 @@ public class TryingMethods {
             b++;
         }
         System.out.println("The sum of all numbers between 1 and 1000 is: " + theSum);
-        // daysOfTheWeek();
+
         TryingMethods WeekRotate = new TryingMethods();
         WeekRotate.daysOfTheWeek(5);
 
         TryingMethods Statement = new TryingMethods();
         Statement.conditionalStatement(35);
 
-        //
+        TryingMethods.summing();
+
     }
 
     public void daysOfTheWeek(int numberOfTheDay) {
@@ -38,7 +39,7 @@ public class TryingMethods {
                 System.out.println(" That means today is Wednesday");
                 break;
             case 4:
-                System.out.println(" That means today isThursday");
+                System.out.println(" That means today is Thursday");
                 break;
             case 5:
                 System.out.println("That means today is Friday");
@@ -70,13 +71,12 @@ public class TryingMethods {
     }
 
     public static void summing() {
-
+        int sum = 0;
         for (int j = 12; j < 104; j++) {
-            if (j % 2 > 0) {
-                System.out.println(j);
+            if (j % 2 == 0) {
+                sum += j;
             }
-
         }
-
+        System.out.println("The sum of all even numbers between 12 and 103 is: " + sum);
     }
 }
